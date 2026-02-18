@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-Latest-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🚢 Titanic Survival Prediction: XGBoost
 
 Проект машинного обучения для предсказания выживаемости пассажиров Титаника с использованием градиентного бустинга (XGBoost) и современных пайплайнов Scikit-Learn.
@@ -33,32 +37,27 @@ pip install -r requirements.txt
  jupyter notebook XGBoosting_Titanic.ipynb
 ```
 ## Структура 
+```bash
 titanic-xgboost-prediction/
 ├── XGBoosting_Titanic.ipynb   # Основной ноутбук
 ├── README.md                   # Описание проекта
 ├── requirements.txt            # Зависимости
 └── .gitignore                  # Игнорируемые файлы
-
+```
 ## Процесс работы
 EDA (Exploratory Data Analysis) — анализ данных
-
-Feature Engineering — создание признаков
-
 Preprocessing Pipeline — автоматическая обработка
-
 Model Training — обучение XGBoost
-
 Hyperparameter Tuning — оптимизация параметров
-
 Evaluation — оценка качества модели
 
 ## Важность признаков
-| Признак  | Важность |
-| -------- | -------- |
-| Sex_male | 57.0%    |
-| Pclass   | 17.1%    |
-| Age      | 5.5%     |
-| SibSp    | 4.9%     |
+| # | Признак   | Важность |
+|--:|:----------|---------:|
+| 1 | Sex_male  | 57.0%    |
+| 2 | Pclass    | 17.1%    |
+| 3 | Age       | 5.5%     |
+| 4 | SibSp     | 4.9%     |
 
 ## 📝 Источник данных
 Датасет Titanic из Kaggle
