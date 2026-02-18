@@ -26,11 +26,12 @@
 
 ### Установка зависимостей
 ```bash
-pip install -r requirements.txt```
-
-### Запуск notebook 
-``` jupyter notebook XGBoosting_Titanic.ipynb
-
+pip install -r requirements.txt
+```
+### Запуск notebook
+```bash
+ jupyter notebook XGBoosting_Titanic.ipynb
+```
 ## Структура 
 titanic-xgboost-prediction/
 ├── XGBoosting_Titanic.ipynb   # Основной ноутбук
