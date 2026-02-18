@@ -1,11 +1,29 @@
-# Titanic Survival Prediction: XGBoost
+# 🚢 Titanic Survival Prediction: XGBoost
 
-Проект по предсказанию выживаемости пассажиров Титаника. **ROC-AUC: 0.8763 ± 0.0238** [file:1].
+Проект машинного обучения для предсказания выживаемости пассажиров Титаника с использованием градиентного бустинга (XGBoost) и современных пайплайнов Scikit-Learn.
 
-## Стек
-- XGBoost, Scikit-Learn Pipelines
-- Pandas, Seaborn
+## Результаты
 
-## Запуск
-1. `pip install -r requirements.txt`
-2. `jupyter notebook XGBoosting_Titanit.ipynb`
+- **ROC-AUC:** 0.8763 ± 0.0238
+- **Accuracy:** 0.88
+
+## Технологии
+
+- **Python 3.10+**
+- **XGBoost** — градиентный бустинг
+- **Scikit-Learn** — пайплайны, кросс-валидация, подбор гиперпараметров
+- **Pandas/Numpy** — обработка данных
+- **Matplotlib/Seaborn** — визуализация
+
+## Особенности решения
+
+1. **ColumnTransformer** для автоматической обработки числовых и категориальных признаков
+2. Сравнение **GridSearchCV vs RandomizedSearchCV**
+3. **Early Stopping** для предотвращения переобучения
+4. Production-ready пайплайн без утечки данных
+
+## Быстрый старт
+
+### Установка зависимостей
+```bash
+pip install -r requirements.txt
