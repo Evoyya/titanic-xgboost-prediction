@@ -45,11 +45,13 @@ titanic-xgboost-prediction/
 └── .gitignore                  # Игнорируемые файлы
 ```
 ## Процесс работы
-EDA (Exploratory Data Analysis) — анализ данных
-Preprocessing Pipeline — автоматическая обработка
-Model Training — обучение XGBoost
-Hyperparameter Tuning — оптимизация параметров
-Evaluation — оценка качества модели
+1. EDA (Exploratory Data Analysis) — анализ данных
+2. Preprocessing Pipeline — автоматическая обработка
+3. Model Training — обучение XGBoost
+4. Hyperparameter Tuning — оптимизация параметров
+5. Evaluation — оценка качества модели
+6. Final Pipeline - финальный Pipeline
+7. Saving the model - сохранение итоговой модели 
 
 ## Важность признаков
 | # | Признак   | Важность |
