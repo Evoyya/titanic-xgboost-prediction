@@ -26,4 +26,41 @@
 
 ### Установка зависимостей
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
+
+### Запуск notebook 
+``` jupyter notebook XGBoosting_Titanic.ipynb
+
+## Структура 
+titanic-xgboost-prediction/
+├── XGBoosting_Titanic.ipynb   # Основной ноутбук
+├── README.md                   # Описание проекта
+├── requirements.txt            # Зависимости
+└── .gitignore                  # Игнорируемые файлы
+
+## Процесс работы
+EDA (Exploratory Data Analysis) — анализ данных
+
+Feature Engineering — создание признаков
+
+Preprocessing Pipeline — автоматическая обработка
+
+Model Training — обучение XGBoost
+
+Hyperparameter Tuning — оптимизация параметров
+
+Evaluation — оценка качества модели
+
+## Важность признаков
+| Признак  | Важность |
+| -------- | -------- |
+| Sex_male | 57.0%    |
+| Pclass   | 17.1%    |
+| Age      | 5.5%     |
+| SibSp    | 4.9%     |
+
+## 📝 Источник данных
+Датасет Titanic из Kaggle
+
+## Автор
+Evoyya
