@@ -2,7 +2,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Latest-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# 🚢 Titanic Survival Prediction: XGBoost
+# Titanic Survival Prediction: XGBoost
 
 Проект машинного обучения для предсказания выживаемости пассажиров Титаника с использованием градиентного бустинга (XGBoost) и современных пайплайнов Scikit-Learn.
 
@@ -61,7 +61,7 @@ titanic-xgboost-prediction/
 | 3 | Age       | 5.5%     |
 | 4 | SibSp     | 4.9%     |
 
-## 📝 Источник данных
+## Источник данных
 Датасет Titanic из Kaggle
 
 ## Автор
